@@ -1,0 +1,7 @@
+def birthdayCakeCandles(candles):
+    a= max(candles)
+    count=0
+    for i in range(len(candles)):
+        if candles[i]==a:
+            count= count+1
+    return count
